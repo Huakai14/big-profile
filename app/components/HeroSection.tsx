@@ -29,7 +29,7 @@ const HeroSection = () => {
     //   </div>
     // </section>
     <section
-      className="min-h-screen bg-cover bg-center relative flex items-center justify-center px-4 sm:px-8"
+      className="min-h-screen bg-cover bg-center relative flex items-center justify-center px-4 sm:px-8 pt-16 sm:pt-20"
       style={{ backgroundImage: 'url("/mirage.webp")' }}
       id="hero"
     >
