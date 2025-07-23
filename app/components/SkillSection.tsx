@@ -30,7 +30,7 @@ const SkillSection = () => {
   const frontendSkills = [
     { icon: <FaReact className="text-4xl sm:text-5xl mb-4 text-blue-600" />, name: "ReactJS" },
     { icon: <SiJavascript className="text-4xl sm:text-5xl mb-4 text-yellow-500" />, name: "JavaScript" },
-    { icon: <SiNextdotjs className="text-4xl sm:text-5xl mb-4 text-white" />, name: "Next.js" },
+    { icon: <SiNextdotjs className="text-4xl sm:text-5xl mb-4 text-black" />, name: "Next.js" },
     { icon: <SiCss3 className="text-4xl sm:text-5xl mb-4 text-blue-500" />, name: "CSS" },
     { icon: <FaBootstrap className="text-4xl sm:text-5xl mb-4 text-purple-600" />, name: "Bootstrap" },
     { icon: <SiTailwindcss className="text-4xl sm:text-5xl mb-4 text-blue-400" />, name: "Tailwind CSS" },
@@ -52,7 +52,7 @@ const SkillSection = () => {
     { icon: <SiPostman className="text-4xl sm:text-5xl mb-4 text-orange-400" />, name: "Postman" },
     { icon: <FaTrello className="text-4xl sm:text-5xl mb-4 text-blue-600" />, name: "Trello" },
     { icon: <SiJira className="text-4xl sm:text-5xl mb-4 text-blue-600" />, name: "Jira" },
-    { icon: <FaGithub className="text-4xl sm:text-5xl mb-4 text-white" />, name: "GitHub" },
+    { icon: <FaGithub className="text-4xl sm:text-5xl mb-4 text-purple-600" />, name: "GitHub" },
   ];
 
   const renderSkills = () => {
