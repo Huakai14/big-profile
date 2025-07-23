@@ -11,13 +11,15 @@ const ProjectSection = () => {
         <div className="bg-gray-800 rounded-lg p-6 shadow-lg">
           <div
             className="h-48 bg-cover rounded-t-lg"
-            style={{ backgroundImage: 'url("/project1.jpg")' }}
+            style={{
+              backgroundImage: 'url("/overpass.webp")',
+            }}
           ></div>
           <h3 className="text-xl font-semibold text-white mt-4">
-            Project Title
+            E-Commerce Platform
           </h3>
           <p className="text-gray-300 mt-2">
-            A brief description of the project goes here.
+            A brief description of the project goes here. This could be a custom-built e-commerce platform with integrated payment solutions.
           </p>
           <a href="#" className="text-yellow-500 mt-4 inline-block">
             View Project
@@ -28,18 +30,22 @@ const ProjectSection = () => {
         <div className="bg-gray-800 rounded-lg p-6 shadow-lg">
           <div
             className="h-48 bg-cover rounded-t-lg"
-            style={{ backgroundImage: 'url("/project2.jpg")' }}
+            style={{
+              backgroundImage: 'url("/dust2.webp")',
+            }}
           ></div>
           <h3 className="text-xl font-semibold text-white mt-4">
-            Project Title
+            Custom Web Application
           </h3>
           <p className="text-gray-300 mt-2">
-            A brief description of the project goes here.
+            A brief description of the project goes here. This could be a custom web application with real-time data analytics and user management.
           </p>
           <a href="#" className="text-yellow-500 mt-4 inline-block">
             View Project
           </a>
         </div>
+
+        {/* Add more project cards as needed */}
       </div>
     </section>
   );
