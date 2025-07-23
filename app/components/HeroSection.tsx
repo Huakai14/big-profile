@@ -76,7 +76,7 @@ const HeroSection = () => {
         </motion.div>
 
         {/* Right Image Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
@@ -92,7 +92,7 @@ const HeroSection = () => {
               sizes="(max-width: 640px) 160px, (max-width: 1024px) 256px, 400px"
             />
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
