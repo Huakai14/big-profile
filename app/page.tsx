@@ -75,8 +75,8 @@ const Home: FC = () => {
       <ContactSection />
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 text-center">
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+      <footer className="bg-gray-800/50 backdrop-blur-sm border-t border-gray-700 text-gray-400 py-4 text-center mt-[-2rem]">
+        <p>&copy; 2025 Thanawat Burapatanin. All rights reserved.</p>
       </footer>
     </div>
   );
