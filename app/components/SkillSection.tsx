@@ -14,6 +14,7 @@ import {
   SiTailwindcss,
   SiCss3,
   SiJavascript,
+  SiTypescript,
   SiNodered,
   SiPrisma,
   SiMysql,
@@ -30,6 +31,7 @@ const SkillSection = () => {
   const frontendSkills = [
     { icon: <FaReact className="text-4xl sm:text-5xl mb-4 text-blue-600" />, name: "ReactJS" },
     { icon: <SiJavascript className="text-4xl sm:text-5xl mb-4 text-yellow-500" />, name: "JavaScript" },
+    { icon: <SiTypescript className="text-4xl sm:text-5xl mb-4 text-blue-600" />, name: "TypeScript" },
     { icon: <SiNextdotjs className="text-4xl sm:text-5xl mb-4 text-black" />, name: "Next.js" },
     { icon: <SiCss3 className="text-4xl sm:text-5xl mb-4 text-blue-500" />, name: "CSS" },
     { icon: <FaBootstrap className="text-4xl sm:text-5xl mb-4 text-purple-600" />, name: "Bootstrap" },

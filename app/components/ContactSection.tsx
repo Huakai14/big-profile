@@ -5,7 +5,16 @@ import confetti from "canvas-confetti";
 const ContactSection = () => {
   const handleDownloadCV = () => {
     console.log("Download CV clicked");
-    // Trigger confetti on click
+    
+    // Create a link element to download the CV
+    const link = document.createElement('a');
+    link.href = '/cv.pdf';
+    link.download = 'Thanawat_Burapatanin_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Trigger confetti on successful download
     confetti({
       particleCount: 100,
       angle: 90,
